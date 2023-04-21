@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿
+using System.Collections.Generic;
 using SFML.Graphics;
 using SFML.System;
 
@@ -54,7 +55,7 @@ namespace GameEngine
 
         public void SetCollisionCheckEnabled(bool isCollisionCheckEnabled)
         {
-            _isCollisionCheckEnabled = isCollisionCheckEnabled;
+            _isCollisionCheckEnabled = true;
         }
 
         // This function lets you specify a rectangle for collision checks.

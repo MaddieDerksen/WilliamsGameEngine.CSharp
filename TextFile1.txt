@@ -1,0 +1,8 @@
+
+            Random rng = new();
+            int minWidth = 200, maxWidth = 716;
+            int minHeight = 0, maxHeight = 480;
+            int meteorHeight = rng.Next(minHeight, maxHeight);
+            int meteorWidth = rng.Next(minWidth, maxWidth);
+            new Vector2f(meteorWidth, meteorHeight);
+

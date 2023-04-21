@@ -1,4 +1,6 @@
 ﻿using GameEngine;
+using SFML.System;
+
 
 namespace MyGame
 {
